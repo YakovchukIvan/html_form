@@ -1,0 +1,38 @@
+.wrapper {
+    width: 900px;
+    margin: 50px auto;
+}
+
+.hr_mrg_bot {
+    margin-bottom: 25px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 7fr);
+}
+
+input {
+    display: block;
+    width: 400px;
+    height: 20px;
+    margin: 10px 0 5px 0;
+}
+
+.div_input2 {
+    grid-column: span 2;
+}
+
+.input_span2 {
+    width: 850px;
+}
+
+.submit {
+    margin: 25px 0 0 0;
+    width: min-content;
+    height: 30px;
+}
+
+.span_red {
+    color: rgb(250, 56, 56);
+}

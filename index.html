@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+
+    <hr>
+    <h1>Contact Us</h1>
+    <hr class="hr_mrg_bot">
+
+    <form action="https://postman-echo.com/get">
+        <div>
+            <label for="fname">First name:</label>
+            <input type="name" id="fname" name="fname">
+        </div>
+        
+        <div>
+            <label for="lname">Last name<span class="span_red">*</span>:</label>
+            <input type="name" id="lname" required name="lname"> 
+        </div>
+
+        <div>
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        
+        <div>
+            <label for="tel">Business Phone:</label>
+            <input type="tel" id="tel" name="tel"> 
+        </div>
+
+        <div>
+            <label for="cname">Company Name<span class="span_red">*</span>:</label>
+            <input type="text" id="cname" required name="cname">
+        </div>
+        
+        <div>
+            <label for="job-tittle">Job Tittle:</label>
+            <input type="text" id="job-tittle" name="job-tittle"> 
+        </div>
+
+        <div class="div_input2">
+            <label for="address">Street 1:</label>
+            <input class="input_span2" type="address" id="address" name="address">
+        </div>
+        
+        <div>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" list="Rivne">
+            <datalist id="Rivne">
+                <option value="Rivnensʹkyy rayon">Rivnensʹkyy rayon</option>
+                <option value="Dubensʹkyy rayon">Dubensʹkyy rayon</option>
+                <option value="Sarnensʹkyy rayon">Sarnensʹkyy rayon</option>
+                <option value="Varasʹkyy rayon">Varasʹkyy rayon</option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        
+        <div>
+            <label for="month">Year:</label>
+            <input type="month" id="month" name="month"> 
+        </div>
+
+        <div>
+            <label for="password">Confirm password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        
+        <div class="div_input2">
+            <label for="lname">Topic<span class="span_red">*</span>:</label>
+            <input class="input_span2" type="text" id="lname" required name="lname"> 
+        </div>
+
+
+        <input class="submit" type="submit" value="Оk">
+    </form>
+
+    </div>
+
+</body>
+</html>
